@@ -2,306 +2,74 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Las Mejores Escopetas de Fortnite</title>
-
 <style>
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    scroll-behavior:smooth;
-}
-
-body{
-    font-family: Arial, sans-serif;
-    display:flex;
-    background:#0b1120;
-    color:white;
-}
-
-/* MENU */
-
-.menu{
-    width:260px;
-    height:100vh;
-    position:fixed;
-    background:linear-gradient(180deg,#111827,#1d4ed8);
-    padding-top:20px;
-    overflow:auto;
-}
-
-.menu h2{
-    text-align:center;
-    color:#38bdf8;
-    margin-bottom:30px;
-    font-size:32px;
-}
-
-.menu a{
-    display:block;
-    color:white;
-    text-decoration:none;
-    padding:15px 25px;
-    transition:0.3s;
-    font-size:18px;
-}
-
-.menu a:hover{
-    background:#2563eb;
-    padding-left:35px;
-}
-
-/* CONTENIDO */
-
-.contenido{
-    margin-left:260px;
-    width:100%;
-    padding:30px;
-}
-
-/* PORTADA */
-
-.portada{
-    height:500px;
-    background:
-    linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),
-    url('https://wallpapers.com/images/featured/fortnite-pictures-b5kfcchwazwiz3cs.jpg');
-
-    background-size:cover;
-    background-position:center;
-    border-radius:20px;
-
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-
-    text-align:center;
-    padding:40px;
-    margin-bottom:40px;
-}
-
-.portada h1{
-    font-size:60px;
-    color:#38bdf8;
-    margin-bottom:20px;
-    text-shadow:0 0 15px black;
-}
-
-.portada p{
-    max-width:800px;
-    font-size:22px;
-    line-height:1.8;
-    text-shadow:0 0 10px black;
-}
-
-/* INTRODUCCION */
-
-.intro{
-    background:#1e293b;
-    padding:40px;
-    border-radius:15px;
-    margin-bottom:40px;
-    box-shadow:0 0 20px rgba(0,0,0,0.5);
-}
-
-.intro h2{
-    color:#38bdf8;
-    margin-bottom:20px;
-    font-size:36px;
-}
-
-.intro p{
-    font-size:19px;
-    line-height:1.8;
-}
-
-/* TARJETAS */
-
-.tarjeta{
-    background:#1e293b;
-    padding:30px;
-    border-radius:15px;
-    margin-bottom:40px;
-    box-shadow:0 0 15px rgba(0,0,0,0.4);
-    transition:0.3s;
-}
-
-.tarjeta:hover{
-    transform:translateY(-5px);
-    box-shadow:0 0 25px rgba(56,189,248,0.4);
-}
-
-.tarjeta h2{
-    color:#38bdf8;
-    margin-bottom:15px;
-    font-size:32px;
-}
-
-.tarjeta p{
-    font-size:18px;
-    line-height:1.6;
-    margin-bottom:20px;
-}
-
-.tarjeta img{
-    width:100%;
-    max-width:500px;
-    border-radius:12px;
-    border:3px solid #38bdf8;
-}
-
-/* RESPONSIVE */
-
+*{margin:0;padding:0;box-sizing:border-box;scroll-behavior:smooth;}
+body{font-family:Arial,sans-serif;display:flex;background:#0b1120;color:#fff;}
+.menu{width:260px;height:100vh;position:fixed;background:linear-gradient(180deg,#111827,#1d4ed8);padding-top:20px;overflow:auto;}
+.menu h2{text-align:center;color:#38bdf8;margin-bottom:30px;font-size:32px;}
+.menu a{display:block;color:#fff;text-decoration:none;padding:15px 25px;transition:.3s;font-size:18px;}
+.menu a:hover{background:#2563eb;padding-left:35px;}
+.contenido{margin-left:260px;width:100%;padding:30px;}
+.portada{height:500px;background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.7)),url('https://wallpapers.com/images/featured/fortnite-pictures-b5kfcchwazwiz3cs.jpg');background-size:cover;background-position:center;border-radius:20px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:40px;margin-bottom:40px;}
+.portada h1{font-size:60px;color:#38bdf8;margin-bottom:20px;text-shadow:0 0 15px #000;}
+.portada p{max-width:800px;font-size:22px;line-height:1.8;text-shadow:0 0 10px #000;}
+.intro{background:#1e293b;padding:40px;border-radius:15px;margin-bottom:40px;box-shadow:0 0 20px rgba(0,0,0,.5);}
+.intro h2{color:#38bdf8;margin-bottom:20px;font-size:36px;}
+.intro p{font-size:19px;line-height:1.8;}
+.tarjeta{background:#1e293b;padding:30px;border-radius:15px;margin-bottom:40px;box-shadow:0 0 15px rgba(0,0,0,.4);transition:.3s;}
+.tarjeta:hover{transform:translateY(-5px);box-shadow:0 0 25px rgba(56,189,248,.4);}
+.tarjeta h2{color:#38bdf8;margin-bottom:15px;font-size:32px;}
+.tarjeta p{font-size:18px;line-height:1.6;margin-bottom:20px;}
+.tarjeta img{width:100%;max-width:500px;border-radius:12px;border:3px solid #38bdf8;}
 @media(max-width:768px){
-
-    body{
-        flex-direction:column;
-    }
-
-    .menu{
-        width:100%;
-        height:auto;
-        position:relative;
-    }
-
-    .contenido{
-        margin-left:0;
-        padding:20px;
-    }
-
-    .portada{
-        height:400px;
-    }
-
-    .portada h1{
-        font-size:40px;
-    }
-
-    .portada p{
-        font-size:18px;
-    }
-
+body{flex-direction:column;}
+.menu{width:100%;height:auto;position:relative;}
+.contenido{margin-left:0;padding:20px;}
+.portada{height:400px;}
+.portada h1{font-size:40px;}
+.portada p{font-size:18px;}
 }
-
 </style>
 </head>
-
 <body>
-
-<!-- MENU -->
-
 <div class="menu">
-
-    <h2>FORTNITE</h2>
-
-    <a href="#inicio">Inicio</a>
-    <a href="#corredera">Corredera</a>
-    <a href="#tactica">Tactica</a>
-    <a href="#automatica">Automatica</a>
-    <a href="#trueno">Trueno</a>
-
+<h2>FORTNITE</h2>
+<a href="#inicio">Inicio</a>
+<a href="#corredera">Corredera</a>
+<a href="#tactica">T&aacute;ctica</a>
+<a href="#automatica">Autom&aacute;tica</a>
+<a href="#trueno">Trueno</a>
 </div>
-
-<!-- CONTENIDO -->
-
 <div class="contenido">
-
-    <!-- PORTADA -->
-
-    <section id="inicio" class="portada">
-
-        <h1>Las Mejores Escopetas de Fortnite</h1>
-
-        <p>
-            Descubre las armas mas poderosas para dominar el combate cercano
-            y convertirte en el jugador mas temido del Battle Royale.
-        </p>
-
-    </section>
-
-    <!-- INTRODUCCION -->
-
-    <section class="intro">
-
-        <h2>Por que son tan importantes las escopetas</h2>
-
-        <p>
-            En Fortnite, las escopetas son fundamentales para las peleas a corta distancia.
-            La mayoria de los enfrentamientos intensos ocurren dentro de construcciones,
-            donde la rapidez y el dano son claves para sobrevivir.
-            Estas armas pueden cambiar completamente una partida gracias a su enorme poder.
-            Algunas destacan por su precision y otras por disparar muy rapido,
-            permitiendo eliminar enemigos en segundos.
-            Por eso, elegir una buena escopeta puede marcar la diferencia entre la victoria
-            y la derrota en cualquier combate.
-        </p>
-
-    </section>
-
-    <!-- ESCOPETA DE CORREDERA -->
-
-    <section id="corredera" class="tarjeta">
-
-        <h2>Escopeta de Corredera</h2>
-
-        <p>
-            La Escopeta de Corredera es una de las armas mas famosas de Fortnite.
-            Tiene un dano altisimo y puede eliminar enemigos rapidamente.
-        </p>
-
-        <img src="https:encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXEYi6JT2HMbGjnisOy2V0yXQCaxLoWnFEgw&s">
-
-    </section>
-
-    <!-- ESCOPETA TACTICA -->
-
-    <section id="tactica" class="tarjeta">
-
-        <h2>Escopeta Tactica</h2>
-
-        <p>
-            La Escopeta Tactica destaca por su velocidad de disparo
-            y es ideal para peleas rapidas.
-        </p>
-
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZuTy97xPQ20d2JoTHBAgyyIpsxrW17pknpA&s">
-
-    </section>
-
-    <!-- ESCOPETA AUTOMATICA -->
-
-    <section id="automatica" class="tarjeta">
-
-        <h2>Escopeta Automatica</h2>
-
-        <p>
-            La Escopeta Automatica permite atacar constantemente
-            gracias a su gran rapidez.
-        </p>
-
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSZxU5lYhumujqJDgfss6N8SPzJbSYFQMYdw&s">
-
-    </section>
-
-    <!-- ESCOPETA TRUENO -->
-
-    <section id="trueno" class="tarjeta">
-
-        <h2>Escopeta Trueno</h2>
-
-        <p>
-            La Escopeta Trueno combina potencia y precision.
-            Puede hacer muchisimo dano critico.
-        </p>
-
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2gIbYic5W1j9O9ra5-QKtm54k7iRLFwZYog&s">
-
-    </section>
-
+<section id="inicio" class="portada">
+<h1>Las Mejores Escopetas de Fortnite</h1>
+<p>Descubre las armas m&aacute;s poderosas para dominar el combate cercano y convertirte en el jugador m&aacute;s temido del Battle Royale.</p>
+</section>
+<section class="intro">
+<h2>Por qu&eacute; son tan importantes las escopetas</h2>
+<p>En Fortnite, las escopetas son fundamentales para las peleas a corta distancia. La mayor&iacute;a de los enfrentamientos intensos ocurren dentro de construcciones, donde la rapidez y el da&ntilde;o son claves para sobrevivir. Estas armas pueden cambiar completamente una partida gracias a su enorme poder. Algunas destacan por su precisi&oacute;n y otras por disparar muy r&aacute;pido, permitiendo eliminar enemigos en segundos. Por eso, elegir una buena escopeta puede marcar la diferencia entre la victoria y la derrota en cualquier combate.</p>
+</section>
+<section id="corredera" class="tarjeta">
+<h2>Escopeta de Corredera</h2>
+<p>La Escopeta de Corredera es una de las armas m&aacute;s famosas de Fortnite. Tiene un da&ntilde;o alt&iacute;simo y puede eliminar enemigos r&aacute;pidamente.</p>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXEYi6JT2HMbGjnisOy2V0yXQCaxLoWnFEgw&s" alt="Escopeta de Corredera">
+</section>
+<section id="tactica" class="tarjeta">
+<h2>Escopeta T&aacute;ctica</h2>
+<p>La Escopeta T&aacute;ctica destaca por su velocidad de disparo y es ideal para peleas r&aacute;pidas.</p>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZuTy97xPQ20d2JoTHBAgyyIpsxrW17pknpA&s" alt="Escopeta Táctica">
+</section>
+<section id="automatica" class="tarjeta">
+<h2>Escopeta Autom&aacute;tica</h2>
+<p>La Escopeta Autom&aacute;tica permite atacar constantemente gracias a su gran rapidez.</p>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSZxU5lYhumujqJDgfss6N8SPzJbSYFQMYdw&s" alt="Escopeta Automática">
+</section>
+<section id="trueno" class="tarjeta">
+<h2>Escopeta Trueno</h2>
+<p>La Escopeta Trueno combina potencia y precisi&oacute;n. Puede hacer much&iacute;simo da&ntilde;o cr&iacute;tico.</p>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2gIbYic5W1j9O9ra5-QKtm54k7iRLFwZYog&s" alt="Escopeta Trueno">
+</section>
 </div>
-
 </body>
 </html>
