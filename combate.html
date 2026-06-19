@@ -1,0 +1,61 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Escopeta de Combate</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:Arial,sans-serif;background:linear-gradient(135deg,#1a0f0f,#3b1d1d,#1a0f0f);color:white;}
+.encabezado{text-align:center;padding:35px 20px;}
+.encabezado h1{font-size:60px;color:#ffb347;text-shadow:0 0 15px #ffb347,0 0 30px #ff8c00;letter-spacing:3px;}
+.imagen{width:88%;margin:20px auto;border-radius:40px;overflow:hidden;box-shadow:0 0 30px #ff8c00;}
+.imagen img{width:100%;display:block;filter:brightness(85%);transition:1s;}
+.imagen:hover img{transform:scale(1.08) rotate(1deg);}
+.contenedor{width:90%;margin:auto;padding-bottom:40px;}
+.intro{background:rgba(255,255,255,.05);padding:30px;border-radius:30px;border:1px solid rgba(255,255,255,.1);}
+.intro h2{color:#ffb347;font-size:35px;margin-bottom:15px;}
+.intro p{font-size:18px;line-height:1.9;text-align:justify;margin-bottom:15px;}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;margin-top:25px;}
+.tarjeta{background:rgba(255,255,255,.06);padding:25px;border-radius:25px;transition:.5s;position:relative;overflow:hidden;}
+.tarjeta::before{content:"";position:absolute;top:0;left:-100%;width:100%;height:100%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.2),transparent);transition:.8s;}
+.tarjeta:hover::before{left:100%;}
+.tarjeta:hover{transform:scale(1.04);box-shadow:0 0 25px #ff8c00;}
+.tarjeta h3{color:#ffb347;margin-bottom:10px;font-size:24px;}
+.tarjeta p{line-height:1.7;text-align:justify;}
+</style>
+</head>
+<body>
+<div class="encabezado">
+<h1>ESCOPETA DE COMBATE</h1>
+</div>
+<div class="imagen">
+<img src="combate.png" alt="Escopeta de Combate">
+</div>
+<div class="contenedor">
+<div class="intro">
+<h2>Precisión a Otro Nivel</h2>
+<p>La Escopeta de Combate revolucionó la forma de jugar Fortnite cuando fue introducida. A diferencia de otras escopetas enfocadas exclusivamente en el daño a corta distancia, esta arma destacó por ofrecer una combinación única de precisión, alcance y velocidad.</p>
+<p>Su diseño permitió a los jugadores atacar con eficacia desde distancias mayores a las habituales para una escopeta. Esto hizo posible mantener el control de los enfrentamientos sin necesidad de acercarse demasiado al enemigo.</p>
+<p>Gracias a su excelente alcance y a su rápida velocidad de disparo, la Escopeta de Combate se convirtió rápidamente en una de las armas favoritas de jugadores competitivos y casuales. Muchos la consideran una de las armas más completas que han existido dentro del juego.</p>
+<p>Su capacidad para adaptarse a distintas situaciones la convirtió en una opción muy versátil, capaz de destacar tanto en combates agresivos como en enfrentamientos más estratégicos.</p>
+</div>
+<div class="grid">
+<div class="tarjeta">
+<h3>Gran Alcance</h3>
+<p>Puede causar daño efectivo desde distancias donde otras escopetas comienzan a perder eficacia.</p>
+</div>
+<div class="tarjeta">
+<h3>Alta Precisión</h3>
+<p>Su patrón de disparo permite realizar ataques más consistentes y controlados.</p>
+</div>
+<div class="tarjeta">
+<h3>Versatilidad</h3>
+<p>Funciona correctamente en distintas situaciones de combate gracias a su equilibrio general.</p>
+</div>
+<div class="tarjeta">
+<h3>Impacto Competitivo</h3>
+<p>Fue una de las armas más utilizadas por jugadores profesionales durante su época de mayor popularidad.</p>
+</div>
+</div>
+</div>
+</body>
+</html>
